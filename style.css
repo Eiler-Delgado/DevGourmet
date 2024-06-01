@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+@font-face{
+    font-family: 'FuenteMadeAweiler';
+    src: url(fonts/MADEAwelierLight.otf);
+}
+@font-face{
+    font-family: 'FuenteAweilerMedium';
+    src: url(fonts/MADEAwelierPERSONALUSE-Medium.otf);
+}
+
+html{
+    background-color: rgb(255, 234, 251);
+    font-family: 'FuenteMadeAweiler';
+    font-size: 1.125rem;
+    margin: 0;
+}
+
+body{
+    margin: 0rem;
+}
+
+img{
+    width: 100%;
+}
+
+/* de aca para abajo comienza la barra de navegación  */
+
+header{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 3.75rem;
+    min-width: auto;
+}
+
+.logo{
+    display: flex;
+    margin-left: 3.125rem;
+    color: #c76565;
+    margin: .625rem;
+    margin-right: .625rem;
+    align-items: center ;
+}
+
+.linklogo{
+    transition: ease-in .2s;
+    color: rgb(190, 62, 62);
+    
+}
+
+.linklogo:hover {
+    transform: scale(1.05);
+}
+
+.logo h1{
+    font-size: 1.875rem;
+    text-decoration: none;
+}
+
+.linklogo{
+    text-decoration: none;
+}
+
+.logo img{
+    height:  3.125rem;
+    border-radius: 50%;
+    margin-right: .625rem;
+}
+
+.nav{
+    display: flex;
+    padding: .9375rem;
+    align-items: center;
+}
+
+.nav a{
+    color: #020101;
+    padding: .625rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.nav a:hover{
+    transition: ease-in .2s;
+    color: rgb(190, 62, 62);
+}
+
+.nav a:hover {
+    transform: scale(1.1);
+}
+
+.nav .sesion{
+    color: white;
+    background-color: rgb(138, 43, 226);
+    border-radius: .9375rem;
+}
+
+.nav .sesion:hover{
+    transition: ease-in .2s;
+    color: rgb(19, 11, 11);
+    background-color: rgb(148, 86, 149);
+}
+
+.nav .sesion :hover {
+    transform: scale(1.1);
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 50rem){
+    header{
+        flex-direction: column; 
+    }
+}
+@media(max-width:34.375rem){
+    .nav{
+        flex-direction: column;
+        margin-top: -2.1875rem;
+    }
+    
+    .nav a{
+        margin-top: -10px;
+    }
+}
+
+
+.tex1{
+    margin: 50px 150px;
+    color: rgb(255, 183, 3);
+}
+
+.tex2{
+    margin: 30px 150px;
+    width: 30px;
+}
+
+.tex3{
+    margin: 10px 150px;
+    position: relative;
+    bottom: 25px;
+}
+
+.texp{
+    position: relative;
+    bottom: 100px;
+    right: 100px;
+    padding: 100px;
+    margin: 0px 150px;
+    color: rgb(194, 147, 147);
+}
+
+.produc{
+    position: relative;
+    bottom: 150px;
+    left: 250px;
+    display: block;
+    background-color: brown;
+    text-decoration: none;
+    margin: 0px;
+    padding: 10px;
+    width: 160px;
+    color: black;
+    text-align: center;
+}
+
+.produc:hover{
+    background-color: rgb(53, 23, 23);
+    color: rgb(196, 193, 193);
+}
+
+.prodec:active{
+    background-color: rgb(149, 86, 150);
+    color: aquamarine;
+}
