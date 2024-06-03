@@ -1,179 +1,212 @@
-*{
-    box-sizing: border-box;
-    margin: 0px;
+* {
+   box-sizing: border-box;
+   margin: 0px;
 }
 
-@font-face{
-    font-family: 'FuenteMadeAweiler';
-    src: url(fonts/MADEAwelierLight.otf);
+@font-face {
+   font-family: "FuenteMadeAweiler";
+   src: url(fonts/MADEAwelierLight.otf);
 }
-@font-face{
-    font-family: 'FuenteAweilerMedium';
-    src: url(fonts/MADEAwelierPERSONALUSE-Medium.otf);
-}
-
-html{
-    background-color: rgb(255, 234, 251);
-    font-family: 'FuenteMadeAweiler';
-    font-size: 1.125rem;
-    margin: 0;
+@font-face {
+   font-family: "FuenteAweilerMedium";
+   src: url(fonts/MADEAwelierPERSONALUSE-Medium.otf);
 }
 
-body{
-    margin: 0rem;
+html {
+   background-color: rgb(255, 234, 251);
+   font-family: "FuenteMadeAweiler";
+   font-size: 1.125rem;
+   margin: 0;
 }
 
-img{
-    width: 100%;
+body {
+   margin: 0rem;
+   background-image: url(fondos/chef-pastelero-1-.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center center;
+}
+
+img {
+   width: 100%;
 }
 
 /* de aca para abajo comienza la barra de navegación  */
 
-header{
-    display: flex;
-    background-color: white;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 3.75rem;
-    min-width: auto;
+header {
+   display: flex;
+   background-color: white;
+   justify-content: space-around;
+   align-items: center;
+   min-height: 3.75rem;
+   min-width: auto;
 }
 
-.logo{
-    display: flex;
-    margin-left: 3.125rem;
-    color: #c76565;
-    margin: .625rem;
-    margin-right: .625rem;
-    align-items: center ;
+.logo {
+   display: flex;
+   margin-left: 3.125rem;
+   color: #c76565;
+   margin: 0.625rem;
+   margin-right: 0.625rem;
+   align-items: center;
 }
 
-.linklogo{
-    transition: ease-in .2s;
-    color: rgb(190, 62, 62);
-    
+.linklogo {
+   transition: ease-in 0.2s;
+   color: rgb(190, 62, 62);
 }
 
 .linklogo:hover {
-    transform: scale(1.05);
+   transform: scale(1.05);
 }
 
-.logo h1{
-    font-size: 1.875rem;
-    text-decoration: none;
+.logo h1 {
+   font-size: 1.875rem;
+   text-decoration: none;
 }
 
-.linklogo{
-    text-decoration: none;
+.linklogo {
+   text-decoration: none;
 }
 
-.logo img{
-    height:  3.125rem;
-    border-radius: 50%;
-    margin-right: .625rem;
+.logo img {
+   height: 3.125rem;
+   border-radius: 50%;
+   margin-right: 0.625rem;
 }
 
-.nav{
-    display: flex;
-    padding: .9375rem;
-    align-items: center;
+.nav {
+   display: flex;
+   padding: 0.9375rem;
+   align-items: center;
 }
 
-.nav a{
-    color: #020101;
-    padding: .625rem;
-    text-decoration: none;
-    font-size: 1.25rem;
-}
-
-.nav a:hover{
-    transition: ease-in .2s;
-    color: rgb(190, 62, 62);
+.nav a {
+   color: #020101;
+   padding: 0.625rem;
+   text-decoration: none;
+   font-size: 1.25rem;
 }
 
 .nav a:hover {
-    transform: scale(1.1);
+   transition: ease-in 0.2s;
+   color: rgb(190, 62, 62);
 }
 
-.nav .sesion{
-    color: white;
-    background-color: rgb(138, 43, 226);
-    border-radius: .9375rem;
+.nav a:hover {
+   transform: scale(1.1);
 }
 
-.nav .sesion:hover{
-    transition: ease-in .2s;
-    color: rgb(19, 11, 11);
-    background-color: rgb(148, 86, 149);
+.nav .sesion {
+   color: white;
+   background-color: rgb(138, 43, 226);
+   border-radius: 0.9375rem;
+}
+
+.nav .sesion:hover {
+   transition: ease-in 0.2s;
+   color: rgb(19, 11, 11);
+   background-color: rgb(148, 86, 149);
 }
 
 .nav .sesion :hover {
-    transform: scale(1.1);
+   transform: scale(1.1);
 }
 
 /* RESPONSIVE */
 
-@media(max-width: 50rem){
-    header{
-        flex-direction: column; 
-    }
+@media (max-width: 50rem) {
+   header {
+      flex-direction: column;
+   }
 }
-@media(max-width:34.375rem){
-    .nav{
-        flex-direction: column;
-        margin-top: -2.1875rem;
-    }
-    
-    .nav a{
-        margin-top: -10px;
-    }
-}
-
-
-.tex1{
-    margin: 50px 150px;
-    color: rgb(255, 183, 3);
+@media (max-width: 34.375rem) {
+   .nav {
+      flex-direction: column;
+      margin-top: -1.1875rem;
+   }
+   .nav a {
+      margin-top: -0.625rem;
+   }
 }
 
-.tex2{
-    margin: 30px 150px;
-    width: 30px;
+.text {
+   font-size: 1.875rem;
+   margin-left: 12%;
+   margin-top: 5%;
+   margin-right: 3%;
+   max-height: fit-content;
 }
 
-.tex3{
-    margin: 10px 150px;
-    position: relative;
-    bottom: 25px;
+.tex1 {
+   font-size: 2.5rem;
+   color: rgb(255, 183, 3);
 }
 
-.texp{
-    position: relative;
-    bottom: 100px;
-    right: 100px;
-    padding: 100px;
-    margin: 0px 150px;
-    color: rgb(194, 147, 147);
+.tex2 {
+   margin: 1.875rem;
+   margin-left: 0.625rem;
+   font-size: 5.625rem;
+   color: white;
 }
 
-.produc{
-    position: relative;
-    bottom: 150px;
-    left: 250px;
-    display: block;
-    background-color: brown;
-    text-decoration: none;
-    margin: 0px;
-    padding: 10px;
-    width: 160px;
-    color: black;
-    text-align: center;
+.tex3 {
+   margin: 0.625rem;
+   position: relative;
+   bottom: 1.5625rem;
+   font-size: 5.625rem;
+   color: white;
 }
 
-.produc:hover{
-    background-color: rgb(53, 23, 23);
-    color: rgb(196, 193, 193);
+.tex3 strong {
+   color: #be4f4f;
 }
 
-.prodec:active{
-    background-color: rgb(149, 86, 150);
-    color: aquamarine;
+.texp {
+   position: relative;
+   bottom: 6.25rem;
+   right: 6.25rem;
+   padding: 6.25rem;
+   margin: 0rem;
+   color: rgb(194, 147, 147);
+}
+
+.produc {
+   position: relative;
+   bottom: 9.375rem;
+   display: block;
+   background-color: brown;
+   text-decoration: none;
+   margin: 0px;
+   padding: 0.625rem;
+   width: 10rem;
+   color: black;
+   text-align: center;
+   margin-left: 30%;
+}
+
+.produc:hover {
+   background-color: rgb(53, 23, 23);
+   color: rgb(196, 193, 193);
+}
+
+.prodec:active {
+   background-color: rgb(149, 86, 150);
+   color: aquamarine;
+}
+
+@media (max-width: 34.375rem) {
+   .text .tex1 {
+      font-size: 1.875rem;
+   }
+   .text .tex2 {
+      font-size: 2.5rem;
+   }
+   .text .tex3 {
+      font-size: 2.5rem;
+   }
+   .text .texp{
+      font-size: 1.5rem;
+   }
 }
