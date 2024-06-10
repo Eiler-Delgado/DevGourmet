@@ -1,0 +1,138 @@
+* {
+   box-sizing: border-box;
+}
+
+@font-face {
+   font-family: "FuenteMadeAweiler";
+   src: url(fonts/MADEAwelierLight.otf);
+}
+@font-face {
+   font-family: "FuenteAweilerMedium";
+   src: url(fonts/MADEAwelierPERSONALUSE-Medium.otf);
+}
+
+html {
+   background-color:  rgb(255, 234, 251);
+   font-family: "FuenteMadeAweiler";
+   font-size: 1.125rem;
+   margin: 0;
+}
+
+body {
+   margin: 0rem auto;
+}
+
+img {
+   width: 100%;
+}
+a{
+   display: flex;
+   text-decoration: none;
+}
+
+.logo {
+   display: flex;
+   color: #c76565;
+   align-items: center;
+   margin: auto;
+}
+
+.logo img {
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   margin-right: 0.625rem;
+}
+
+.box{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 90vh;
+}
+
+.container{
+      width: 400px;
+      height: auto;
+      margin: 0 auto;
+      border-radius: 10px;
+      padding-top: 30px;
+      padding-bottom: 20px;
+      background-color: #fbfbfb;
+      padding-left: 30px;
+      border-radius: 1.25rem;
+   box-shadow: 0.0625rem 0.0625rem 0.3125rem 5px rgb(207, 205, 205);
+}
+
+.input-field .input{
+   background-color: #fbfbfb;
+   width: 90%;
+   height: 45px;
+   border-radius: 5px;
+   border-style: solid;
+   border-width: 1px;
+   border-color: #030203;
+   margin-top: 10px;
+   padding-left: 10px;
+   margin-bottom: 20px;
+   padding-top: 15px;
+}
+
+i{
+   position: relative;
+   top: -31x;
+   left: 17px;
+   color: #fff;
+}
+
+::-webkit-input-placeholder{
+   color: #665c5c;
+}
+
+
+.top-header header{
+   color: #c76565;
+   font-size: 30px;
+   display: flex;
+   justify-content: center;
+   padding: 0 0 15px 0;
+}
+
+.input-field{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 15px;
+}
+
+.submit{
+   height: 45px;
+   padding-left: 5px;
+   padding-right: 5px;
+   margin-bottom: 20px;
+   margin-top: 10px;
+   text-transform: uppercase;
+   background-color: rgb(138, 43, 226);
+   border-color: rgb(138, 43, 226);
+   border-style: solid;
+   border-radius: 10px;
+   width: 90%;
+   cursor: pointer;
+}
+
+
+.bottom{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   font-size: small;
+   color: #fff;
+   margin-top: 10px;
+}
+
+
+label a{
+   color: #3117c5;
+   font-size: 20px;
+   text-decoration-line: underline;
+}
+

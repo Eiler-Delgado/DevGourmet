@@ -1,0 +1,160 @@
+Menu Principal
+
+1. Dueño
+2. Cliente
+3. Salir del sistema
+
+Por favor, elige una opción para continuar:
+
+-------------------------------------------------------------------
+
+Menu Dueño
+
+1. Crear usuario para acceso
+2. Ingresar al sistema
+3. Regresar al menú principal
+
+Por favor, elige una opción para continuar:
+
+-------------------------------------------------------------------
+
+Crear Usuario para Dueño
+
+1. Nombre
+2. Contraseña
+3. Repetir Contraseña
+
+Por favor, ingresa los datos solicitados:
+
+-------------------------------------------------------------------
+
+Ingresar al Sistema (Dueño)
+
+1. Nombre de usuario
+2. Contraseña
+
+Por favor, ingresa los datos solicitados:
+
+-------------------------------------------------------------------
+
+Menu del Dueño
+
+1. Agregar Producto
+2. Consultar Producto
+3. Consultar Encargos
+4. Consultar Domicilios
+5. Regresar al menú principal
+
+Por favor, elige una opción para continuar:
+
+-------------------------------------------------------------------
+
+Agregar Producto
+
+- Solicita el nombre del producto
+- Solicita la cantidad del producto 
+
+-------------------------------------------------------------------
+
+Consultar Producto
+
+- Verifica si hay productos agregad0s.
+- Si hay Productos, muestra la lista de los productos disponibles.
+
+-------------------------------------------------------------------
+
+Consultar Encargos
+
+- Muestra la lista de encargos pendientes.
+- Permite ver detalles de cada encargo.
+
+-------------------------------------------------------------------
+
+Consultar Domicilios
+
+- Muestra la lista de domicilios en curso.
+- Permite ver detalles de cada domicilio.
+
+-------------------------------------------------------------------
+
+Menu Cliente
+
+1. Crear usuario
+2. Ingresar
+3. Regresar al menú principal
+
+Por favor, elige una opción para continuar:
+
+-------------------------------------------------------------------
+
+Crear Usuario para Cliente
+
+1. Nombre
+2. Contraseña
+3. Repetir Contraseña
+
+Por favor, ingresa los datos solicitados:
+
+-------------------------------------------------------------------
+
+Ingresar al Sistema (Cliente)
+
+1. Nombre de usuario
+2. Contraseña
+
+Por favor, ingresa los datos solicitados:
+
+-------------------------------------------------------------------
+
+Menu del Cliente
+
+1. Consultar productos disponibles
+2. Ver detalle del producto
+3. Realizar un pedido
+4. Realizar un encargo
+5. Hacer PQR
+6. Regresar al menú principal
+
+Por favor, elige una opción para continuar:
+
+-------------------------------------------------------------------
+
+Consultar Productos Disponibles
+
+- Muestra una lista de categorías como postres o tortas.
+- Permite al usuario seleccionar una categoría para ver los productos disponibles.
+
+-------------------------------------------------------------------
+
+Ver Detalle del Producto
+
+- Permite al usuario seleccionar un producto para ver los detalles.
+
+-------------------------------------------------------------------
+
+Realizar un Pedido
+
+- Solicita seleccionar un producto.
+- Solicita los datos de entrega (nombre, dirección, etc.).
+- Confirma el pedido.
+
+-------------------------------------------------------------------
+
+Realizar un Encargo
+
+- Solicita detalles del encargo específico.
+- Confirma el encargo.
+
+-------------------------------------------------------------------
+
+Hacer PQR (Peticiones, Quejas y Reclamos)
+
+- Solicita los detalles de la PQR.
+- Confirma la recepción de la PQR.
+
+-------------------------------------------------------------------
+
+Regresar al Menú Principal
+
+- Vuelve al menú principal.
+-
